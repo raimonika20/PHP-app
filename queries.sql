@@ -25,3 +25,31 @@ create table
     created_on timestamp not null default current_timestamp,
     image_url varchar(255) not null
   );
+
+-- Path: queries.sql
+delete from properties;
+
+insert into
+  properties (status, price, address, type, image_url)
+VALUES
+  (
+    'sold',
+    100000,
+    '123 Main St',
+    'residential',
+    'Images/residential.jpg'
+  ),
+  (
+    'not sold',
+    200000,
+    '456 Main St',
+    'commercial',
+    'Images/commercial.jpg'
+  ),
+  (
+    'sold',
+    300000,
+    '789 Main St',
+    'industrial',
+    'Images/industrial.jpg'
+  );
