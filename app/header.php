@@ -16,3 +16,5 @@
     <a href="property_page.php">Products</a>
     <a href="login_form.php">Login</a>
   </div>
+</body>
+</html>

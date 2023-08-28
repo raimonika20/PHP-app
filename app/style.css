@@ -209,7 +209,7 @@
   border-radius: 15px;
 }
 
-.card-title {
+.card-title, .solid {
   color: #053831;
   font-weight: bold;
 }
