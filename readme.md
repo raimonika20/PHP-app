@@ -17,4 +17,4 @@ run
 docker run -i -t -p "88:80" -p "3306:3306" -v ${PWD}/app:/app -v ${PWD}/mysql:/var/lib/mysql mattrayner/lamp:latest-1804
 ```
 
-<!-- mysql -uadmin -p 5AzmLmnls9Eh  -->
+run the queries.sql in phpmyadmin
