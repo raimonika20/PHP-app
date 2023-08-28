@@ -1,31 +1,105 @@
+<?php
+require_once 'config.php';
+require_once 'header.php';
+
+$propertyType = $_GET['type'];
+
+$sql = "SELECT * FROM properties WHERE type = '$propertyType' ";
+$result = mysqli_query($conn, $sql);
+$properties = mysqli_fetch_all($result, MYSQLI_ASSOC);
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Everland Estates</title>
+<body>
 
-    <link rel="stylesheet" href="./style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  </head>
+  <ul class="nav subheader nav-pills nav-justified">
+    <li class="nav-item">
+      <a class="nav-link " href="?type=Residential">Residential </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="?type=Commercial">Commercial</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="?type=Industrial">Industrial</a>
+    </li>
+  </ul>
 
-  <body>
+  <div class="row mt-4 p-4">
+    <h4 style="color:#053831; font-weight: bold;"><?php echo $propertyType ?> Properties</h4>
+    <hr class="solid" style="color: #053831;height:2px; " />
+    <?php if (isset($properties)) {
+      foreach ($properties as $property) { ?>
+        <div class="col-md-3 mb-2">
+          <div class="card">
+            <img class="card-img-top" src="<?php echo $property['image_url'] ?>">
+            <div class="card-body">
+              <h5 class="card-title"><?php echo $property['name'] ?></h5>
+              <p class="card-text"><?php echo $property['status'] ?><br><?php echo $property['address'] ?><br>₹<?php echo $property['price'] ?>
+              </p>
+              <a href="#" class="btn btn-primary">Buy</a>
+            </div>
+          </div>
+        </div>
+    <?php }
+    } ?>
 
+  </div>
 
-    <ul class="nav nav-pills nav-justified">
-      <li class="nav-item">
-        <a class="nav-link " aria-current="page" href="#">Residential </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Commercial</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Industrial</a>
-      </li>
-    </ul>
+  <div hidden>
+    <div class="row mt-4 p-4">
+      <h4 style="color:#053831; font-weight: bold;"><?php echo $propertyType ?> Properties</h4>
+      <hr class="solid" style="color: #053831;height:2px; " />
+      <div class="col-md-3 mb-2">
+        <div class="card">
+          <img class="card-img-top" src="Images/Commercial1.jpg" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Commercial Real Estate</h5>
+            <p class="card-text">Office Space For Sale in Fairfox EON, Sector 140A , Noida<br>₹40.0 Lac
+            </p>
+            <a href="#" class="btn btn-primary">Buy</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 mb-2">
+        <div class="card">
+          <img class="card-img-top" src="Images/Commercial1.jpg" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Commercial Real Estate</h5>
+            <p class="card-text">Office Space For Sale in Fairfox EON, Sector 140A , Noida<br>₹40.0 Lac
+            </p>
+            <a href="#" class="btn btn-primary">Buy</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 mb-2">
+        <div class="card">
+          <img class="card-img-top" src="Images/Commercial1.jpg" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Commercial Real Estate</h5>
+            <p class="card-text">Office Space For Sale in Fairfox EON, Sector 140A , Noida<br>₹40.0 Lac
+            </p>
+            <a href="#" class="btn btn-primary">Buy</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 mb-2">
+        <div class="card">
+          <img class="card-img-top" src="Images/Commercial1.jpg" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Commercial Real Estate</h5>
+            <p class="card-text">Office Space For Sale in Fairfox EON, Sector 140A , Noida<br>₹40.0 Lac
+            </p>
+            <a href="#" class="btn btn-primary">Buy</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-  </body>
+</body>
 
 </html>

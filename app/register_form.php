@@ -1,5 +1,7 @@
 <?php
-@include 'config.php';
+require_once 'config.php';
+require_once 'header.php';
+
 if (isset($_POST['submit'])) {
     $name = mysqli_real_escape_string($conn, $_POST['name']);
     $email = mysqli_real_escape_string($conn, $_POST['email']);
