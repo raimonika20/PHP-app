@@ -1,5 +1,8 @@
 <?php
 
-$conn = mysqli_connect('localhost', 'root', '', 'user_db');
-
-?>
+$conn = mysqli_connect('localhost', 'admin', '5AzmLmnls9Eh', 'property_app_db');
+if (!$conn) {
+    echo 'connection error: ' . mysqli_connect_error();
+} else {
+    echo 'connected successfully!';
+}
