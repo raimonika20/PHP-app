@@ -19,7 +19,6 @@
                 <h3>Login</h3>
                 <input type="email" name="email" required placeholder="enter your email"><br>
                 <input type="password" name="password" required placeholder="enter your password"><br>
-                <a href="forgotPassword_page.php">Forgot Password?</a>
 
 
                 <input type="submit" name="submit" value="Login" class="form-btn">

@@ -79,7 +79,7 @@
    
 }
 
-.form-container form input,.form-container form select{
+.form-container form input{
     width: 300px;
     padding: 10px 15px;
     font-size: 15px;
