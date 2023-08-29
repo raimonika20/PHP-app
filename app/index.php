@@ -34,10 +34,10 @@ require_once 'header.php';
           <div class="col-md-4 mb-2">
 
             <div class="card">
-              <img class="card-img-top" src="Images/Commercial1.jpg" alt="...">
+              <img class="card-img-top" src="./Images/residential.jpg" alt="...">
               <div class="card-body">
                 <h5 class="card-title">
-                  Residential Real Estate
+                  Residential Property
                 </h5>
                 <p class="card-text">
                   3 BHK Flat For Sale in Logix Blossom Greens, Sector 143 , Noida.<br>₹80.0 Lac
@@ -49,9 +49,9 @@ require_once 'header.php';
           </div>
           <div class="col-md-4 mb-2">
             <div class="card">
-              <img class="card-img-top" src="Images/Commercial1.jpg" alt="...">
+              <img class="card-img-top" src="./Images/commercial.jpg" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Commercial Real Estate</h5>
+                <h5 class="card-title">Commercial Property</h5>
                 <p class="card-text">Office Space For Sale in Fairfox EON, Sector 140A , Noida<br>₹40.0 Lac
                 </p>
                 <a href="property_page.php#" class="btn btn-primary">View</a>
@@ -60,9 +60,9 @@ require_once 'header.php';
           </div>
           <div class="col-md-4 mb-2">
             <div class="card">
-              <img class="card-img-top" src="Images/Commercial1.jpg" alt="...">
+              <img class="card-img-top" src="./Images/residential.jpg" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Residential Real Estate</h5>
+                <h5 class="card-title">Residential Property</h5>
                 <p class="card-text">3 BHK Flat For Sale in Logix Blossom Greens, Sector 143 , Noida.<br>₹80.0 Lac
                 </p>
                 <a href="property_page.php#" class="btn btn-primary">View</a>
@@ -88,20 +88,20 @@ require_once 'header.php';
       <hr class="solid" style="color: #053831;height:2px; " />
       <div class="col-md-6 mb-2">
         <div class="card">
-          <img class="card-img-top" src="Images/Commercial1.jpg" alt="...">
+          <img class="card-img-top" src="./Images/commercial.jpg" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Commercial Real Estate</h5>
+            <h5 class="card-title">Commercial Property</h5>
             <p class="card-text">Office Space For Sale in Fairfox EON, Sector 140A , Noida<br>₹40.0 Lac
             </p>
-            <a href="property_page.php#" class="btn btn-primary">View</a>
+            <a href="?type=Residential" class="btn btn-primary">View</a>
           </div>
         </div>
       </div>
       <div class="col-md-6 mb-2">
         <div class="card">
-          <img class="card-img-top" src="Images/Commercial1.jpg" alt="...">
+          <img class="card-img-top" src="./Images/commercial.jpg" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Commercial Real Estate</h5>
+            <h5 class="card-title">Commercial Property</h5>
             <p class="card-text">Office Space For Sale in Fairfox EON, Sector 140A , Noida<br>₹40.0 Lac
             </p>
             <a href="property_page.php" class="btn btn-primary">View</a>
@@ -115,9 +115,9 @@ require_once 'header.php';
       <hr class="solid" style="color: #053831;height:2px; " />
       <div class="col-md-3 mb-2">
         <div class="card">
-          <img class="card-img-top" src="Images/Commercial1.jpg" alt="...">
+          <img class="card-img-top" src="./Images/commercial.jpg" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Commercial Real Estate</h5>
+            <h5 class="card-title">Commercial Property</h5>
             <p class="card-text">Office Space For Sale in Fairfox EON, Sector 140A , Noida<br>₹40.0 Lac
             </p>
             <a href="property_page.php" class="btn btn-primary">View</a>
@@ -126,9 +126,9 @@ require_once 'header.php';
       </div>
       <div class="col-md-3 mb-2">
         <div class="card">
-          <img class="card-img-top" src="Images/Commercial1.jpg" alt="...">
+          <img class="card-img-top" src="./Images/commercial.jpg" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Commercial Real Estate</h5>
+            <h5 class="card-title">Commercial Property</h5>
             <p class="card-text">Office Space For Sale in Fairfox EON, Sector 140A , Noida<br>₹40.0 Lac
             </p>
             <a href="property_page.php" class="btn btn-primary">View</a>
@@ -137,9 +137,9 @@ require_once 'header.php';
       </div>
       <div class="col-md-3 mb-2">
         <div class="card">
-          <img class="card-img-top" src="Images/Commercial1.jpg" alt="...">
+          <img class="card-img-top" src="./Images/commercial.jpg" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Commercial Real Estate</h5>
+            <h5 class="card-title">Commercial Property</h5>
             <p class="card-text">Office Space For Sale in Fairfox EON, Sector 140A , Noida<br>₹40.0 Lac
             </p>
             <a href="property_page.php" class="btn btn-primary">View</a>
@@ -148,9 +148,9 @@ require_once 'header.php';
       </div>
       <div class="col-md-3 mb-2">
         <div class="card">
-          <img class="card-img-top" src="Images/Commercial1.jpg" alt="...">
+          <img class="card-img-top" src="./Images/commercial.jpg" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Commercial Real Estate</h5>
+            <h5 class="card-title">Commercial Property</h5>
             <p class="card-text">Office Space For Sale in Fairfox EON, Sector 140A , Noida<br>₹40.0 Lac
             </p>
             <a href="property_page.php" class="btn btn-primary">View</a>
