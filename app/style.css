@@ -203,7 +203,12 @@
 .card {
   box-shadow: 0 0 7px #0c7e6f;
   overflow: hidden;
-  border-radius: 15px;
+  border-radius: 15px;  
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: scale(1.1);
 }
 
 .card-title, .solid {
