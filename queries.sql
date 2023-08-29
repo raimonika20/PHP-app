@@ -6,6 +6,16 @@ create database if not exists property_app_db;
 use property_app_db;
 
 -- Path: queries.sql
+CREATE TABLE
+  if not exists users (
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    email VARCHAR(255) NOT NULL,
+    password VARCHAR(255) NOT NULL,
+    created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
+  );
+
+-- Path: queries.sql
 create table
   if not exists properties (
     id SERIAL primary key,
@@ -75,7 +85,7 @@ VALUES
   (
     'sold',
     '7 BHK Villa For Sale',
-    '2,00,00,000',
+    '3,00,00,000',
     'Sector 70 , Noida.',
     'residential',
     'Images/residential6.jpg'
@@ -114,7 +124,7 @@ VALUES
   ),
    (
     'not sold',
-    '380 Sq.Ft, Commercial Showroom For Sale ',
+    '1456 Sq.Ft, Commercial Showroom For Sale ',
     '79,00,000',
     ' Fairfox EON, Sector 140A , Noida',
     'commercial',
