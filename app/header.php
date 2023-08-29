@@ -15,7 +15,7 @@
   <body>
     <div class="nav header">
       <a href="index.php">Home</a>
-      <a href="property_page.php">Products</a>
+      <a href="?type=Residential">Products</a>
       <a href="login_form.php">Login</a>
     </div>
   </body>

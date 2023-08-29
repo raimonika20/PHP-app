@@ -29,7 +29,7 @@ require_once 'header.php';
 
 
     <div class="row mb-4 p-4">
-      <div class="col-md-10">
+      <div class="col-md-12">
         <div class="row">
           <div class="col-md-4 mb-2">
 
@@ -42,7 +42,7 @@ require_once 'header.php';
                 <p class="card-text">
                   3 BHK Flat For Sale in Logix Blossom Greens, Sector 143 , Noida.<br>₹80.0 Lac
                 </p>
-                <a href="property_page.php" class="btn btn-primary">View</a>
+                <a href="?type=Residential" class="btn btn-primary">View</a>
               </div>
             </div>
 
@@ -54,7 +54,7 @@ require_once 'header.php';
                 <h5 class="card-title">Commercial Property</h5>
                 <p class="card-text">Office Space For Sale in Fairfox EON, Sector 140A , Noida<br>₹40.0 Lac
                 </p>
-                <a href="property_page.php#" class="btn btn-primary">View</a>
+                <a href="?type=Commercial" class="btn btn-primary">View</a>
               </div>
             </div>
           </div>
@@ -65,7 +65,7 @@ require_once 'header.php';
                 <h5 class="card-title">Residential Property</h5>
                 <p class="card-text">3 BHK Flat For Sale in Logix Blossom Greens, Sector 143 , Noida.<br>₹80.0 Lac
                 </p>
-                <a href="property_page.php#" class="btn btn-primary">View</a>
+                <a href="?type=Residential" class="btn btn-primary">View</a>
               </div>
             </div>
           </div>
@@ -77,10 +77,7 @@ require_once 'header.php';
 
 
 
-      <div class="col-md-2" style="background-color:#3c776f34;">
 
-
-      </div>
     </div>
 
     <div class="row mt-4 p-4">
@@ -93,7 +90,7 @@ require_once 'header.php';
             <h5 class="card-title">Commercial Property</h5>
             <p class="card-text">Office Space For Sale in Fairfox EON, Sector 140A , Noida<br>₹40.0 Lac
             </p>
-            <a href="?type=Residential" class="btn btn-primary">View</a>
+            <a href="?type=Commercial" class="btn btn-primary">View</a>
           </div>
         </div>
       </div>
@@ -104,7 +101,7 @@ require_once 'header.php';
             <h5 class="card-title">Commercial Property</h5>
             <p class="card-text">Office Space For Sale in Fairfox EON, Sector 140A , Noida<br>₹40.0 Lac
             </p>
-            <a href="property_page.php" class="btn btn-primary">View</a>
+            <a href="?type=Commercial" class="btn btn-primary">View</a>
           </div>
         </div>
       </div>
@@ -120,7 +117,7 @@ require_once 'header.php';
             <h5 class="card-title">Commercial Property</h5>
             <p class="card-text">Office Space For Sale in Fairfox EON, Sector 140A , Noida<br>₹40.0 Lac
             </p>
-            <a href="property_page.php" class="btn btn-primary">View</a>
+            <a href="?type=Commercial" class="btn btn-primary">View</a>
           </div>
         </div>
       </div>
@@ -131,7 +128,7 @@ require_once 'header.php';
             <h5 class="card-title">Commercial Property</h5>
             <p class="card-text">Office Space For Sale in Fairfox EON, Sector 140A , Noida<br>₹40.0 Lac
             </p>
-            <a href="property_page.php" class="btn btn-primary">View</a>
+            <a href="?type=Commercial" class="btn btn-primary">View</a>
           </div>
         </div>
       </div>
@@ -142,7 +139,7 @@ require_once 'header.php';
             <h5 class="card-title">Commercial Property</h5>
             <p class="card-text">Office Space For Sale in Fairfox EON, Sector 140A , Noida<br>₹40.0 Lac
             </p>
-            <a href="property_page.php" class="btn btn-primary">View</a>
+            <a href="?type=Commercial" class="btn btn-primary">View</a>
           </div>
         </div>
       </div>
@@ -153,7 +150,7 @@ require_once 'header.php';
             <h5 class="card-title">Commercial Property</h5>
             <p class="card-text">Office Space For Sale in Fairfox EON, Sector 140A , Noida<br>₹40.0 Lac
             </p>
-            <a href="property_page.php" class="btn btn-primary">View</a>
+            <a href="?type=Commercial" class="btn btn-primary">View</a>
           </div>
         </div>
       </div>
