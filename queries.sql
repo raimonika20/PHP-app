@@ -17,8 +17,9 @@ CREATE TABLE
 
 create table
   if not exists properties (
-    id serial primary key,
+    id SERIAL primary key,
     status varchar(255) not null, -- sold/not sold
+    description varchar(255) not null,
     price float not null,
     address varchar(255) not null,
     type varchar(255) not null, -- residential/commercial/industrial
@@ -30,26 +31,37 @@ create table
 delete from properties;
 
 insert into
-  properties (status, price, address, type, image_url)
+  properties (status, description, price, address, type, image_url)
 VALUES
   (
     'sold',
-    100000,
-    '123 Main St',
+    '3 BHK Flat For Sale',
+    3500000,
+    'Logix Blossom Greens, Sector 143 , Noida.',
     'residential',
     'Images/residential.jpg'
   ),
   (
     'not sold',
-    200000,
-    '456 Main St',
+    '300 Sq.Ft, Office Space For Sale ',
+    1800000,
+    ' Fairfox EON, Sector 140A , Noida',
+    'commercial',
+    'Images/commercial.jpg'
+  ),
+  (
+    'not sold',
+    '1330 Sq.Ft, Commercial Showroom For Sale ',
+    1.9999999,
+    'Transport Nagar, Udaipur',
     'commercial',
     'Images/commercial.jpg'
   ),
   (
     'sold',
-    300000,
-    '789 Main St',
+    '11,040 Sq.Ft, Godown/Warehouse ',
+    60000000,
+    'Tiruvottiyur, Chennai',
     'industrial',
     'Images/industrial.jpg'
   );

@@ -40,10 +40,11 @@ $properties = mysqli_fetch_all($result, MYSQLI_ASSOC);
               <img class="card-img-top" src="<?php echo $property['image_url'] ?>">
               <div class="card-body">
                 <h5 class="card-title">
-                  <?php echo $property['name'] ?>
+                  <?php echo $property['type'] ?> Properties
                 </h5>
                 <p class="card-text">
                   <?php echo $property['status'] ?><br>
+                  <?php echo $property['description'] ?><br>
                   <?php echo $property['address'] ?><br>₹
                   <?php echo $property['price'] ?>
                 </p>
