@@ -43,6 +43,54 @@ VALUES
   ),
   (
     'not sold',
+    '4 BHK Villa For Sale',
+    8000000,
+    'Sector 107 , Noida',
+    'residential',
+    'Images/residential2.jpg'
+  ),
+  (
+    'not sold',
+    '3 BHK Villa For Sale',
+    4200000,
+    'Noida Extension Block A, Noida',
+    'residential',
+    'Images/residential3.jpg'
+  ),
+  (
+    'sold',
+    '5 BHK Villa For Sale',
+    20500000,
+    'Sector 79 , Noida',
+    'residential',
+    'Images/residential4.jpg'
+  ),
+  (
+    'not sold',
+    '10 BHK Villa For Sale',
+    45000000,
+    'Sector 19 , Noida.',
+    'residential',
+    'Images/residential5.jpg'
+  ),
+  (
+    'not sold',
+    '3 BHK Villa For Sale',
+    7500000,
+    'Noida Extension , Noida.',
+    'residential',
+    'Images/residential7.jpg'
+  ),
+  (
+    'sold',
+    '7 BHK Villa For Sale',
+    20000000,
+    'Sector 70 , Noida.',
+    'residential',
+    'Images/residential6.jpg'
+  ),
+  (
+    'not sold',
     '300 Sq.Ft, Office Space For Sale ',
     1800000,
     ' Fairfox EON, Sector 140A , Noida',
@@ -51,17 +99,65 @@ VALUES
   ),
   (
     'not sold',
-    '1330 Sq.Ft, Commercial Showroom For Sale ',
-    1.9999999,
-    'Transport Nagar, Udaipur',
+    '400 Sq.Ft, Office Space For Sale ',
+    1900000,
+    ' Gurugram, Delhi',
     'commercial',
-    'Images/commercial.jpg'
+    'Images/commercial2.jpg'
   ),
   (
-    'sold',
+    'not sold',
+    '1330 Sq.Ft, Commercial Showroom For Sale ',
+    6200000,
+    'Transport Nagar, Udaipur',
+    'commercial',
+    'Images/commercial5.jpg'
+  ),
+   (
+    'not sold',
+    '3786 Sq.Ft, Commercial Showroom For Sale ',
+    124900000,
+    'M3M The Cullinan Avenue, Sector 94 , Noida',
+    'commercial',
+    'Images/commercial4.jpg'
+  ),
+   (
+    'not sold',
+    '380 Sq.Ft, Commercial Showroom For Sale ',
+    7900000,
+    ' Fairfox EON, Sector 140A , Noida',
+    'commercial',
+    'Images/commercial3.jpg'
+  ),
+  (
+    'not sold',
+    '12,040 Sq.Ft, Godown/Warehouse ',
+    70000000,
+    'Kottayam, Kerala',
+    'industrial',
+    'Images/industrial.jpg'
+  ),
+   (
+    'not sold',
     '11,040 Sq.Ft, Godown/Warehouse ',
     60000000,
     'Tiruvottiyur, Chennai',
     'industrial',
-    'Images/industrial.jpg'
+    'Images/industrial2.jpg'
+  ),
+   (
+    'not sold',
+    '8000 Sq.Ft, Godown/Warehouse ',
+    800000000,
+    'Sector 63, Noida',
+    'industrial',
+    'Images/industrial3.jpg'
+  ),
+  (
+    'not sold',
+    '11,040 Sq.Ft, Godown/Warehouse ',
+    60000000,
+    'Sector 67, Noida',
+    'industrial',
+    'Images/industrial4.jpg'
   );

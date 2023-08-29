@@ -38,7 +38,8 @@ if (isset($_POST['submit'])) {
                 <h3>Login</h3>
                 <input type="email" name="email" required placeholder="enter your email"><br>
                 <input type="password" name="password" required placeholder="enter your password"><br>
-                <input type="submit" name="submit" value="Login" class="form-btn">
+                <input type="submit" href="property_page.php?type=Residential" name="submit" value="Login"
+                    class="form-btn">
                 <?php
                 $error = $_GET['error'];
                 if (isset($error)) {
