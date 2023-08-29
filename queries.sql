@@ -11,7 +11,7 @@ create table
     id SERIAL primary key,
     status varchar(255) not null, -- sold/not sold
     description varchar(255) not null,
-    price varchar not null,
+    price varchar(255) not null,
     address varchar(255) not null,
     type varchar(255) not null, -- residential/commercial/industrial
     created_on timestamp not null default current_timestamp,
