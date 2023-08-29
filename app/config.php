@@ -1,7 +1,8 @@
 <?php
 
-$conn = mysqli_connect('localhost', 'root', '', 'property_app_db', '3308');
+$conn = mysqli_connect('sql203.infinityfree.com', 'if0_34925416', 'Infy@moni20', 'if0_34925416_Propertydb', '3306');
 if (!$conn) {
     echo 'connection error: ' . mysqli_connect_error();
 
 }
+
