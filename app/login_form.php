@@ -33,18 +33,18 @@ if (isset($_POST['submit'])) {
 
 
         <div class="form-container">
-            <?php
-            $error = $_GET['error'];
-            if (isset($error)) {
-                echo '<h1> Failed to login</h1>';
-            }
-            ?>
+
             <form action="" method="post">
                 <h3>Login</h3>
-                <input type="email" name="email" required value="rai20monik@gmail.com"
-                    placeholder="enter your email"><br>
-                <input type="password" name="password" required value="monika" placeholder="enter your password"><br>
+                <input type="email" name="email" required placeholder="enter your email"><br>
+                <input type="password" name="password" required placeholder="enter your password"><br>
                 <input type="submit" name="submit" value="Login" class="form-btn">
+                <?php
+                $error = $_GET['error'];
+                if (isset($error)) {
+                    echo '<h5 style="color:red;"> Failed to login</h5>';
+                }
+                ?>
                 <p>Don't have an account? <a href="register_form.php"> Register now</a></p>
 
             </form>

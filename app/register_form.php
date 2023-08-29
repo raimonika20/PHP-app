@@ -21,52 +21,55 @@ if (isset($_POST['submit'])) {
             header('location:login_form.php');
         }
     }
-};
+}
+;
 ?>
 
 
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registeration Form</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Registeration Form</title>
 
-    <link rel="stylesheet" href="./style.css">
-</head>
+        <link rel="stylesheet" href="./style.css">
+    </head>
 
-<body>
-
-
-
-    <div class="form-container">
-
-        <form action="" method="post">
-            <h3>Register</h3>
-            <?php
-            if (isset($error)) {
-                foreach ($error as $error) {
-                    echo '<span class="error-msg">' . $error . '</span>';
-                };
-            };
-            ?>
-
-
-            <input type="text" name="name" required value="monika" placeholder="enter your name"><br>
-            <input type="email" name="email" required value="rai20monik@gmail.com" placeholder="enter your email"><br>
-            <input type="password" name="password" required value="monika" placeholder="enter your password"><br>
-            <input type="password" name="cpassword" required value="monika" placeholder="confirm your password"><br>
-
-
-            <input type="submit" name="submit" value="Register" class="form-btn">
-            <p>Already have an account? <a href="login_form.php">Login Now</a></p>
-
-        </form>
-    </div>
+    <body>
 
 
 
-</body>
+        <div class="form-container">
+
+            <form action="" method="post">
+                <h3>Register</h3>
+                <?php
+                if (isset($error)) {
+                    foreach ($error as $error) {
+                        echo '<span class="error-msg">' . $error . '</span>';
+                    }
+                    ;
+                }
+                ;
+                ?>
+
+
+                <input type="text" name="name" required placeholder="enter your name"><br>
+                <input type="email" name="email" required placeholder="enter your email"><br>
+                <input type="password" name="password" required placeholder="enter your password"><br>
+                <input type="password" name="cpassword" required placeholder="confirm your password"><br>
+
+
+                <input type="submit" name="submit" value="Register" class="form-btn">
+                <p>Already have an account? <a href="login_form.php">Login Now</a></p>
+
+            </form>
+        </div>
+
+
+
+    </body>
 
 </html>
