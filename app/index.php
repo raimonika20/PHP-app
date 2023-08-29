@@ -42,7 +42,7 @@ require_once 'header.php';
                 <p class="card-text">
                   3 BHK Flat For Sale in Logix Blossom Greens, Sector 143 , Noida.<br>₹80.0 Lac
                 </p>
-                <a href="?type=Residential" class="btn btn-primary">View</a>
+                <a href="property_page.php?type=Residential" class="btn btn-primary">View</a>
               </div>
             </div>
 
@@ -54,7 +54,7 @@ require_once 'header.php';
                 <h5 class="card-title">Commercial Property</h5>
                 <p class="card-text">Office Space For Sale in Fairfox EON, Sector 140A , Noida<br>₹40.0 Lac
                 </p>
-                <a href="?type=Commercial" class="btn btn-primary">View</a>
+                <a href="property_page.php?type=Commercial" class="btn btn-primary">View</a>
               </div>
             </div>
           </div>
@@ -65,7 +65,7 @@ require_once 'header.php';
                 <h5 class="card-title">Residential Property</h5>
                 <p class="card-text">3 BHK Flat For Sale in Logix Blossom Greens, Sector 143 , Noida.<br>₹80.0 Lac
                 </p>
-                <a href="?type=Residential" class="btn btn-primary">View</a>
+                <a href="property_page.php?type=Residential" class="btn btn-primary">View</a>
               </div>
             </div>
           </div>
@@ -90,7 +90,7 @@ require_once 'header.php';
             <h5 class="card-title">Commercial Property</h5>
             <p class="card-text">Office Space For Sale in Fairfox EON, Sector 140A , Noida<br>₹40.0 Lac
             </p>
-            <a href="?type=Commercial" class="btn btn-primary">View</a>
+            <a href="property_page.php?type=Commercial" class="btn btn-primary">View</a>
           </div>
         </div>
       </div>
@@ -101,7 +101,7 @@ require_once 'header.php';
             <h5 class="card-title">Commercial Property</h5>
             <p class="card-text">Office Space For Sale in Fairfox EON, Sector 140A , Noida<br>₹40.0 Lac
             </p>
-            <a href="?type=Commercial" class="btn btn-primary">View</a>
+            <a href="property_page.php?type=Commercial" class="btn btn-primary">View</a>
           </div>
         </div>
       </div>
@@ -117,7 +117,7 @@ require_once 'header.php';
             <h5 class="card-title">Commercial Property</h5>
             <p class="card-text">Office Space For Sale in Fairfox EON, Sector 140A , Noida<br>₹40.0 Lac
             </p>
-            <a href="?type=Commercial" class="btn btn-primary">View</a>
+            <a href="property_page.php?type=Commercial" class="btn btn-primary">View</a>
           </div>
         </div>
       </div>
@@ -128,7 +128,7 @@ require_once 'header.php';
             <h5 class="card-title">Commercial Property</h5>
             <p class="card-text">Office Space For Sale in Fairfox EON, Sector 140A , Noida<br>₹40.0 Lac
             </p>
-            <a href="?type=Commercial" class="btn btn-primary">View</a>
+            <a href="property_page.php?type=Commercial" class="btn btn-primary">View</a>
           </div>
         </div>
       </div>
@@ -139,7 +139,7 @@ require_once 'header.php';
             <h5 class="card-title">Commercial Property</h5>
             <p class="card-text">Office Space For Sale in Fairfox EON, Sector 140A , Noida<br>₹40.0 Lac
             </p>
-            <a href="?type=Commercial" class="btn btn-primary">View</a>
+            <a href="property_page.php?type=Commercial" class="btn btn-primary">View</a>
           </div>
         </div>
       </div>
@@ -150,7 +150,7 @@ require_once 'header.php';
             <h5 class="card-title">Commercial Property</h5>
             <p class="card-text">Office Space For Sale in Fairfox EON, Sector 140A , Noida<br>₹40.0 Lac
             </p>
-            <a href="?type=Commercial" class="btn btn-primary">View</a>
+            <a href="property_page.php?type=Commercial" class="btn btn-primary">View</a>
           </div>
         </div>
       </div>

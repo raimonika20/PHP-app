@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -15,7 +14,7 @@
   <body>
     <div class="nav header">
       <a href="index.php">Home</a>
-      <a href="?type=Residential">Products</a>
+      <a href="property_page.php?type=Residential">Products</a>
       <a href="login_form.php">Login</a>
     </div>
   </body>
