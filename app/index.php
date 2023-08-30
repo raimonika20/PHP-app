@@ -20,8 +20,7 @@ require_once 'header.php';
   <body>
 
     <div class="quote">
-      <h5 class="text-center">Everland Estates</h5>
-      <p class="text-center" style="font-size: 12px;">
+      <p class="text-center">
         Opening Doors to Your Dreams, One Home at a Time.
       </p>
     </div>

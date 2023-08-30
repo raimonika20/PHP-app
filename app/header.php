@@ -13,10 +13,15 @@
 
   <body>
     <div class="nav header">
+      <li class="nav-brand">Everland Estates</li>
+
       <a href="index.php">Home</a>
       <a href="property_page.php?type=Residential">Products</a>
       <a href="login_form.php">Login</a>
+
+
     </div>
+
   </body>
 
 </html>
